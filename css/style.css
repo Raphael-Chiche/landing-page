@@ -1,0 +1,680 @@
+
+*{
+    
+    font-size: large;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#listefooter{
+    line-height: 30px;
+    color: rgb(78, 78, 78);
+}
+#imglogo{
+    display: flex;
+}
+#footerid{
+    display: flex;
+}
+#logoapple{
+    height: 10%;
+}
+footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    background-color: #919191;
+    color: rgb(99, 99, 99);
+}
+
+
+a{
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+#essaiFondespace{
+    background-image: url(../images/fondespace.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+}
+
+html{
+    align-items: center;
+    display: flex;
+}
+body{
+    background-color: rgb(54, 54, 54);
+    /* background: no-repeat linear-gradient(#ffffff, #ffffff); */
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+#titreDebut{
+    text-align: center;
+    font-size: 75px;
+    width: 100%;
+    height: auto;
+    
+}
+
+#pasmargin{
+    margin-bottom: 0px;
+}
+.centre{
+    text-align: center;
+}
+.texte1{
+    width: 50%;
+}
+.image1{
+    display: flex;
+    height: auto;
+    width: 50%;
+}
+#montres3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+    display: flex;
+    
+}
+
+#logo{
+    width: 85px;
+    height: 85px;
+    text-align: left;
+    float: left;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* display: flex; */
+    flex-direction: row-reverse;
+    padding: auto;
+    
+    
+}
+#lienSite {
+    list-style-type: none;
+    /* margin: 0 px;
+    padding: 30px; */
+    /* overflow: hidden; */
+    /* background-color: rgb(117, 117, 117); */
+    position: fixed;
+    top: 0px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;    
+    justify-content: center;
+    letter-spacing: 5px;
+}
+
+#header{
+    position: fixed;
+  
+}
+
+.link {
+    float: right;
+    /* border-right:1px solid rgb(255, 255, 255);
+    border-left:1px solid rgb(255, 255, 255); */
+    border: 1px solid rgb(255, 255, 255);
+    border-top: none;
+    border-bottom: none;
+    
+    
+
+}
+
+
+.link:last-child {
+    border-right: none;
+}
+.link a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.link a:hover:not(.active) {
+    
+    color: rgb(144, 120, 120);
+}
+
+#titreDebut:hover:not(.active) {
+    
+    color: rgb(140, 0, 255);
+}
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+#acceuilMontre{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    /* float: right; */
+}
+#acceuil{
+    background: linear-gradient(0.25turn, rgb(68, 68, 68), rgb(187, 187, 187), rgb(68, 68, 68));
+    /* background: radial-gradient(rgb(255, 255, 255), rgb(139, 139, 139)); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+#testAcceuil{
+    margin-right: 0px;
+    font-size: 150%;
+    margin-left: 30px;
+    text-align: center;
+}
+#montreSe{
+    /* margin-left: 45%;
+    margin-right: auto; */
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 35%;
+
+}
+
+#montreS8{
+    margin-left: 30%;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 35%;
+    margin-top: 25px;
+
+}
+
+#montreUltra{
+    /* margin-left: 45%;
+    margin-right: auto; */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 35%;
+    margin-top: 25px;
+    
+}
+
+
+.texte1{
+    background-color: rgba(127, 255, 212, 0);
+    width: 50%;
+    height: 350px;
+}
+
+.image1{
+    background: linear-gradient(0.25turn, rgb(187, 187, 187), rgb(68, 68, 68));
+    width: 50%;
+    height: 350px;
+    border-radius: 500px;
+    border: 10px inset rgb(255, 255, 255);
+    border-style: inset none;
+    
+    
+    
+    
+   
+}
+#descri1{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+#SEplusieur{
+    width: 400px;
+    height: auto;
+
+}
+#description1{
+    display: flex;
+    align-items: center
+}
+.texte2{
+    background-color: rgba(58, 143, 115, 0);
+    width: 50%;
+    height: 350px;
+}
+.infod{
+    margin-left: 30%;
+}
+
+.infog{
+    margin-left: 30%;
+}
+
+
+.image2{
+    background: linear-gradient(0.25turn, rgb(68, 68, 68), rgb(187, 187, 187));
+    width: 50%;
+    height: 350px;
+    border-radius: 500px;
+    border: 10px inset rgb(255, 255, 255);
+    border-style: inset none;
+    
+}
+
+#descri2{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+#images8descri{
+    width: 400px;
+    height: auto;
+    padding-left: 10%;
+
+}
+#description2{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.texte3{
+    background-color: rgba(127, 255, 212, 0);
+    width: 50%;
+    height: 350px;
+}
+
+.image3{
+    background: linear-gradient(0.25turn, rgb(187, 187, 187), rgb(68, 68, 68));
+    width: 50%;
+    height: 350px;
+    border-radius: 500px;
+    border: 10px inset rgb(255, 255, 255);
+    border-style: inset none;
+    
+}
+#descri3{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+#imageultradescri{
+    width: 400px;
+    height: auto;
+   
+
+}
+#description3{
+    display: flex;
+    align-items: center;
+    
+}
+
+#firstWatch{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+#secondeWatch{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+#thirdWatch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+/* #conteneur{
+    margin-left: 25px;
+    margin-right: 25px;
+} */
+
+.prix{
+    color: red;
+}
+
+/* pour une tablette */
+@media screen and (min-width: 481px) and (max-width: 1024px){  
+    #titreDebut{
+        text-align: center;
+        width:auto;
+        height: 75%;
+    }
+    #essaiFondespace {
+        background-image: url(../images/fondespace.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 126%;
+    }
+
+    main {
+        display: block;
+        width: 126%;
+    }
+
+    #montreSe{
+        /* margin-left: 45%;
+        margin-right: auto; */
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 20%;
+    
+    }
+
+    #montreS8{
+        margin-left: 20%;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+    
+    }
+    
+    #montreUltra{
+        /* margin-left: 45%;
+        margin-right: auto; */
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 20%;
+        margin-top: 25px;
+        
+    }
+    footer {
+        display: flex;
+        justify-content: flex-start;
+        padding: 5px;
+        background-color: #919191;
+        color: rgb(99, 99, 99);
+        width: 125%;
+        height: 1750px;
+
+
+}
+
+}
+
+
+@media all and (min-width : 0px) and (max-device-width: 845px){  
+    .placeLogo{
+        margin-left: 50px;
+    }
+}
+
+/* @media all and (min-width : 0px) and (max-device-width: 490px){  
+    nav{
+        background-color: rgb(63, 63, 63);
+        position: fixed;
+        top: 0px;
+        width: 100%;
+
+        padding: auto;}
+
+    #logo{
+        width: 85px;
+        height: 85px;
+        text-align: left;
+        margin-top: 15px        ;
+
+    }
+    #essaiFondespace{
+        background-image: url(../images/fondespace.png);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        width: 125%;
+        
+    }
+    
+    main{
+        width: 125%;
+    }
+
+} */
+
+@media all and (min-width : 0px) and (max-device-width: 480px){  
+    #essaiFondespace{
+        background-image: url(../images/fondespace.png);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        width: 126%;
+        
+    }
+    
+    main{
+        width: 126%;
+    }
+
+    nav{
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        bottom: 20px;
+        width: 100%;
+        /* display: flex; */
+        flex-direction: row-reverse;
+        padding: auto;
+        height: 250px;
+        
+    }
+
+
+    #titreDebut{
+        text-align: center;
+        padding-top: 70px;
+        font-size: 120px;
+    }
+
+    #acceuil {
+        background-color: rgb(63, 63, 63);
+        /* background: radial-gradient(rgb(255, 255, 255), rgb(139, 139, 139)); */
+        width: auto;
+        height: auto;
+    }
+
+    #testAcceuil {
+        margin-right: 0px; 
+        font-size: 30px;
+        margin-left: 30px;
+        color: black;
+    }
+       
+    #lienSite {
+            list-style-type: none;
+            /* margin: 0 px;
+            padding: 30px; */
+            /* overflow: hidden; */
+            /* background-color: rgb(117, 117, 117); */
+            position: fixed;
+            top: 0px;
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;    
+            justify-content: center;
+            letter-spacing: 5px;
+            align-items: center;
+        }
+    .link {
+            float: right;
+            /* border-right:1px solid rgb(255, 255, 255);
+            border-left:1px solid rgb(255, 255, 255); */
+            border: 1px solid rgb(255, 255, 255);
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            font-size: 40px;
+            
+            
+        
+        }
+    #firstWatch{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    }   
+    #secondeWatch{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    #thirdWatch{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+    .texte1{
+        background-color: rgb(63, 63, 63);
+        width: 100%;
+        height: auto;
+    }
+    .image1{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        height: auto;
+        width: 100%;
+        border: 10px inset rgb(255, 255, 255);
+        border-style: inset none;
+    
+    }
+
+    .texte2{
+        background-color: rgb(63, 63, 63);
+        width: 100%;
+        height: auto;
+    }
+    .image2{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        height: auto;
+        width: 100%;
+        border: 10px inset rgb(255, 255, 255);
+        border-style: inset none;
+    
+    }
+
+    .texte3{
+        background-color: rgb(63, 63, 63);
+        width: 100%;
+        height: auto;
+    }
+    .image3{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        height: auto;
+        width: 100%;
+        border: 10px inset rgb(255, 255, 255);
+        border-style: inset none;
+    
+    }
+
+    #montreSe{
+        /* margin-left: 45%;
+        margin-right: auto; */
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-direction: row-reverse;
+        
+    
+    }
+    
+    #montreS8{
+        margin-left: 35%;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        padding-right: 35%;
+        margin-top: 25px;
+    
+    }
+    #SE{
+        font-size: 40px;
+    }
+    .liste{
+        font-size: 30px;
+    }
+    #montreUltra{
+        /* margin-left: 45%;
+        margin-right: auto; */
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: row-reverse;
+        
+        margin-top: 25px;
+}
+    #description1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#description2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#description3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+    footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    background-color: #919191;
+    color: rgb(99, 99, 99);
+    width: 125%;
+    height: 1750px;
+}
+.infog{
+    margin-left: 15%;
+    font-size: 50px;
+}
+.infod{
+    margin-left: 15%;
+    font-size: 50px;
+}
+#UltraSoustitre{
+    font-size: 40px;
+}
+
+#titreultra{
+    font-size: 50px;
+}
+ 
+}
